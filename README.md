@@ -61,13 +61,13 @@ Este es el código del programa . .
 '# deliverable numero tres(3)
 
 test_all <- t.test(table2_suspension_data$PSI, mu=1500) <br>
-'# the full sample has a p-value = 0.06028 which is very low and within the tolerance range meaning the sample is normally distributed
+'# the full sample has a p-value = 0.06028 
 
 - test_lot1 <- t.test(subset(table2_suspension_data, table2_suspension_data$Manufacturing_Lot=="Lot1")$PSI, mu=1500)
 - test_lot2 <- t.test(subset(table2_suspension_data, table2_suspension_data$Manufacturing_Lot=="Lot2")$PSI, mu=1500)
 - test_lot3 <- t.test(subset(table2_suspension_data, table2_suspension_data$Manufacturing_Lot=="Lot3")$PSI, mu=1500)
 
-'# test_lot3 has a higher p-value than the other two lots p-value = 0.04168
+'# test_lot3 has a p-value = 0.04168
 - test_lot3
 <hr>
 
